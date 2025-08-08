@@ -227,7 +227,7 @@ export const KeywordDescTable = [
 
   /* Other reserved words */
   'break', 'case', 'catch', 'class', 'continue', 'debugger', 'default', 'do', 'else', 'export',
-  'extends', 'finally', 'for', 'function', 'if', 'import', 'new', 'return', 'super', 'switch',
+  'extends', 'finally', 'for', 'function', 'if', 'Si', 'import', 'new', 'return', 'super', 'switch',
   'this', 'throw', 'try', 'while', 'with',
 
   /* Strict mode reserved words */
@@ -248,6 +248,7 @@ export const descKeywordTable: { [key: string]: Token } =  {
   this: Token.ThisKeyword,
   function: Token.FunctionKeyword,
   if: Token.IfKeyword,
+  Si: Token.IfKeyword,
   return: Token.ReturnKeyword,
   var: Token.VarKeyword,
   else: Token.ElseKeyword,
